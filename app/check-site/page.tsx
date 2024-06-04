@@ -25,7 +25,7 @@ export default function Page() {
           <div className="px-4 mx-auto max-w-2xl flex flex-col items-center justify-center">
             <div className="w-full flex flex-col items-center">
               <div className="sm:col-span-2 w-full">
-                
+                <label className="block mb-2 text-md font-medium text-gray-900 text-center dark:text-white">Domain or URL to Analyze</label>
                 <input type="text" name="name" id="name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Type domain to check"
                 onChange={(e) => setUrl(e.target.value)}
                 />
